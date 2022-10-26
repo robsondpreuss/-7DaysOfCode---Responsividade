@@ -1,0 +1,31 @@
+
+.btn-primario{
+  border: none;
+  background: var(--cor-primaria);
+  color: var(--preto);
+  transition: .5s;
+}
+.btn-primario:hover{
+  background: var(--cor-primaria-hover);
+  color: var(--preto);
+}
+
+.btn-secundario{
+  border: none;
+  background: var(--cor-secundaria);
+  color: var(--preto);
+  transition: .5s;
+}
+.btn-secundario:hover{
+  background: var(--cor-secundaria-hover);
+  color: var(--preto);
+}
+
+.btn-terciario{
+  background: var(--cor-terciario);
+  border: 1px solid var(--cinza);
+  transition: .5s;
+}
+.btn-terciario:hover{
+  background: var(--cor-terciario-hover);
+}
