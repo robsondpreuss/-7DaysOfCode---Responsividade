@@ -1,4 +1,4 @@
-section.home{
+header.home{
   display: flex;
   align-items: center;
   height: 110px;
@@ -20,4 +20,10 @@ section.home{
   font-size: 14px;
   font-weight: 400;
   color: var(--texto-claro);
+}
+
+@media (min-width: 1024px){
+  header.home {
+    margin-left: 150px;
+  }
 }
